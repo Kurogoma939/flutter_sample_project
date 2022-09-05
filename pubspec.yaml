@@ -24,6 +24,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  # flutter pub run build_runner build --delete-conflicting-outputs
   build_runner: 2.2.0
   json_annotation: 4.6.0
   json_serializable: 6.3.1

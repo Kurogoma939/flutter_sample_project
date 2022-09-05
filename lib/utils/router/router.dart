@@ -31,6 +31,10 @@ final router = GoRouter(
   //     ],
   //   );
   // },
+  // // URLリクエストエラー時
+  // errorBuilder: (context, state) {
+  //   return 404ErrorPage();
+  // },
   routes: [
     /// 起動動線
     GoRoute(
