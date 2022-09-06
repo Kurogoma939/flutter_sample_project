@@ -16,7 +16,7 @@
 
 ### infrastructure/repository
 - ユースケースや要求に応じて状態を持つ場合がある
-- dataSourceからの取得値を状態（cache）として変数で保持する
+- dataSourceからの取得値を状態（cache）として変数で保持する。そのため、autoDisposeはしない。
 - コンストラクタの永続化はProviderで定義することで実現する
 
 ### infrastructure/dataSource
