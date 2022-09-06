@@ -17,6 +17,12 @@ class SampleHomePage extends HookConsumerWidget {
     // state : state.sampleList
     // notifier : notifier.init()
 
+    // Widget Size
+
+    // Widget Padding
+
+    // Widget Style
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sample Home Page'),
